@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+/* main css**/
+
+#blog{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 40px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.blogheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blogheading h3{
+    font-size: 38px;
+    color: #444;
+
+}
+.blogimg{
+    text-align: center;
+}
+
+.contentcontainer .parag1 h2{
+    text-align: center;
+    text-decoration: underline;
+   
+}
+
+.contentcontainer .introblog h3{
+    margin-left: 40px;
+    color: #003049;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contentcontainer .introblog{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 17px;
+}
+.contentcontainer .parag2 h3{
+    text-align: center;
+    color: #003049;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+.contentcontainer .parag2 p{
+    text-align: left;
+    margin-left: 95px;
+    margin-right: 95px;
+}

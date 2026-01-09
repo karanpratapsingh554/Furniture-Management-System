@@ -1,0 +1,366 @@
+
+
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+    transition: all .2s linear;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+h6{
+    font-size: 17px;
+}
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: #38b000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.navbar a{
+    transition: 0.4s ease;
+}
+.navbar a:hover{
+    color: #B0E936;
+}
+.nav-logo{
+    height: 60px;
+    width: auto;
+
+}
+.logo{
+    background-image: url(logo3.jpg);
+    background-size:cover;
+    height: 60px; 
+    width: 100px;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+
+}
+/** box2**/
+.address1{
+    margin-left: 15px ;
+}
+.address2{
+    margin-left: 3px;
+    color: white;
+}
+
+.location-icon{
+    display: flex;
+    align-items: center;
+
+}
+/** box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00171f;
+    width: 620px;
+    height: 40px;
+    border-radius: 100px;
+
+}
+
+.nav-search:hover{
+    border: 2px solid yellowgreen;
+}
+
+.search-select{
+    background-color:#f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 100px ;
+    border-bottom-left-radius: 100px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/**box4**/
+/**4-1**/
+.nav-signin a{
+    color: white;
+    font-size: 18px;
+    
+
+}
+
+.nav4-1{
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+.nav4-2{
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+
+
+/**box5**/
+.nav-shop{
+    font-weight: 700;
+}
+
+.nav5{
+    color: white;
+}
+
+
+
+
+
+/**box6**/
+.nav6{
+    color: white;
+    font-weight:550;
+}
+.nav-blog i {
+font-size: 27px;
+}
+
+.nav-blog{
+    font-size: 16px;
+    font-weight: 900;
+    
+}
+
+/** Hero Section**/ 
+
+#hero{
+    background-image: url(supernew.jpg);
+    height: 60vh;
+    width: auto;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 100px;
+    text-align: left;
+}
+#hero h1{
+    color: orange;
+    font-size: 50px;
+}
+#hero p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+#hero button{
+    color: green;
+    border:none;
+    padding: 14px 80px 14px 65px;
+    font-size: 17px;
+    background-image: url(button.png);
+    font-weight: 700;
+}
+/** For styling Features**/
+
+
+
+.features{
+    padding: 40px 80px;
+}
+#hero1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+#hero1 .delivery{
+    width:300px ;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px #eaf4f4;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 15px 20px;  
+}
+
+#hero1 .delivery:hover{
+    box-shadow:10px 10px 55px rgba(70, 62, 221, 0.1);
+
+}
+#hero1 .delivery h6{
+    padding: 9px 8px 6px 8px;
+    line-height:1;
+    border-radius: 4px;
+    color: black;
+    background-color: #ade8f4;
+}
+
+/**making image responsive**/
+#hero1 .delivery img{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 220px;
+}
+
+
+span{
+    color: red;
+    font-weight: 700;
+}
+
+
+    
+    
+
+/** Hero Section 2 (Know more about esssential eats)**/
+.hero2{
+    background-color: #f8f8f8;
+}
+#hero2 .essentialeats .aboutee{
+    text-align: center;
+    color: #38b000;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.jar{
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+    display: flex;
+}
+
+.text{
+  
+    width: 600px;
+    margin: 0 25px;
+
+}
+#hero2 .jar .texts h2{
+    color: #f77f00;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#hero2 .jar .texts p{
+    text-align: center;
+  
+    font-size: 20px;
+    color: #444;
+    letter-spacing: 1px;
+    line-height: 30px;
+    
+    
+}
+
+.logoofee{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+  
+    
+
+
+/**Footer**/
+footer{
+    margin-top: 20px;
+    
+}
+.foot-1{
+    background-color:#333333 ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 1rem;
+}
+.foot-2{
+    background-color: #333333;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin: 10px;
+    text-align: left;
+}
+.foot-2 .partner{
+    color: white;
+}
+.foot-2 .blog{
+    color: white;
+}
+.foot-2 .ourteam{
+    color: white;
+}
+.foot-2 .onlinepayment{
+    color: white;
+}
+.foot-2 .voucher{
+    color: white;
+}
+.foot-2 .advertise{
+    color: white;
+}
+.foot-2 .investor{
+    color: white;
+}
+.foot-2 .cod{
+    color: white;
+}
+.foot-2 .feedbackform{
+    color: white;
+}
+.foot-2 .research{
+    color: white;
+}
+.foot-1 .backtotop{
+    color: white;
+    
+}
+
+.foot-3{
+    background-color: black;
+    color: white;
+    border-top: 0.5 px solid grey;
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

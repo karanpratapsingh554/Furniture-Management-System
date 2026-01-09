@@ -1,0 +1,56 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.topic h1{
+    text-align: center;
+    color: #3c6e71 ;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.feedbackcontainer{
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-left: 37%;
+}
+
+.feedbackcontainer h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-group{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+
+button{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #0056b3;
+
+}
